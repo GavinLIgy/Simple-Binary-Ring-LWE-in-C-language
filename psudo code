@@ -1,0 +1,49 @@
+Main Functions:
+
+Key_Gen(a){
+//Input: a is a globle and public system parameter
+//Output: r2 is private key, p is public key
+//a, r1, r2, p are all in ring(noted by R_q): Z_q[X]/(x^n+1)
+//r1, r2 are with binary coeffidences
+
+generate r1, r2 by uniform random with output 0, 1 in R_q;
+p = r1 - a * r2 in R_q;
+
+return p, r2;
+}
+
+
+Encry(a, p, m){
+//Input: a is a globle and public system parameter; p is public key; m is the binary string message in {0,1}^n
+//Output: c =[c1, c2] are cipher texts
+
+generate e1, e2, e3 by uniform random with output 0, 1 in R_q;
+m_wave = Encode(m);// m_wave is the encoded of m in R_q; 
+c1 = a * e1 + e2 in R_q;
+c2 = p * e1 + e3 + m_wave in R_q;
+
+return c = [c1, c2];
+}
+
+Decry(c, r2){
+//Input: c =[c1, c2] is cypher text, c1 & c2 are in R_q
+//Output: s is the secret message in {0,1}^n
+
+s_wave = c1 * r2 + c2 in R_q;
+return s = Decode(s_wave)
+
+}
+
+Sub-Functions:
+UDR_Gen(){
+//Generate [vector] by uniform random with output 0, 1 in R_q;
+
+}
+
+Encode(m){
+
+}
+
+Decode(s_wave){
+
+}
