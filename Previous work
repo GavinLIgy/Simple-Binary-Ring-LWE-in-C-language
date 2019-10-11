@@ -1,0 +1,13 @@
+In [Binary Ring-LWE Hardware with Power Side-Channel Countermeasures],
+  a BRLWE hardware which can defense Simple Power Analysis and Differential Power Analysis(SPA and DPA) is designed.
+  
+  
+In [On the Hardness of LWE with Binary Error: Revisiting the Hybrid Lattice-Reduction and Meet-in-the-Middle Attack],
+  a Comparison of attacks on LWE with binary error using at most m = 2n samples is presented in Table 1.  
+  
+In [Better Key Sizes (and Attacks) for LWE-Based Encryption], 
+  a list of parameter set (for LWE) is provided.
+  
+In [High-Performance and Lightweight Lattice-Based Public-Key Encryption],
+  The Scheme of BRLWE (R-BinLWEEnc) is provided, and
+  Proposed Parameter Sets are provided
