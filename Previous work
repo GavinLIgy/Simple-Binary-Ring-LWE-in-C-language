@@ -11,3 +11,10 @@ In [Better Key Sizes (and Attacks) for LWE-Based Encryption],
 In [High-Performance and Lightweight Lattice-Based Public-Key Encryption],
   The Scheme of BRLWE (R-BinLWEEnc) is provided, and
   Proposed Parameter Sets are provided
+
+In Book [Hardware Security] and [Binary Ring-LWE Hardware with Power Side-Channel Countermeasures],
+  Ring R_q=Z_q[x]/<x^n+1> :
+    All the elements inside this ring are polynomials of degree n-1 with integer coefficients modulo q.
+    The operations defined are: polynomial addition, polynomial subtraction, and polynomial multiplication.
+      Polynomial addition and polynomial subtraction: coefficient-wise, modular addition and subtraction operations, respectively.
+      Polynomial multiplication: generates a 2n-2 degree polynomial which is converted back to a polynomial of degree n-1 with the reduction function of f(x)=xn+1.
