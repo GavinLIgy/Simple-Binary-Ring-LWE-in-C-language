@@ -41,9 +41,9 @@ UDR_Gen(){
 }
 
 Encode(m){
-
+//Generate m_wave with m
 }
 
 Decode(s_wave){
-
+//Generate s with s_wave
 }
