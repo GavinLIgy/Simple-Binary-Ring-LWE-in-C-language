@@ -25,7 +25,7 @@ c2 = p * e1 + e3 + m_wave in R_q;
 return c = [c1, c2];
 }
 
-Decry(c, r2){
+Decry(c, r2){.
 //Input: c =[c1, c2] is cypher text, c1 & c2 are in R_q
 //Output: s is the secret message in {0,1}^n
 
