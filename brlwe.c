@@ -2,8 +2,6 @@
 Introduction:
 BRLWE is a light-weighted noval PQC algorithm based on RLWE which supersede the Gaussian noise with Binary noise.
 BRLWE scheme consists of three main phases: key generation, encryption, and decryption.
-
-
 */
 
 

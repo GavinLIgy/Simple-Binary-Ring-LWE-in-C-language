@@ -6,6 +6,10 @@
 #define RBinLWEENC3 0
 #define RBinLWEENCTEST 1
 
+//#define hybird_k 0
+
+//------------Do Not Modify the codes below-----------------
+
 #ifdef RBinLWEENC1 || (RBinLWEENC1 == 1)
     #define BRLWE_N 256
     #define BRLWE_Q 128

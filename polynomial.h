@@ -6,7 +6,7 @@
 
 struct poly
 {
-    uint8_t poly[BRLWE_N];
+    uint8_t coeff[BRLWE_N];
 };
 
 #endif

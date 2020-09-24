@@ -17,4 +17,4 @@ In Book [Hardware Security] and [Binary Ring-LWE Hardware with Power Side-Channe
     All the elements inside this ring are polynomials of degree n-1 with integer coefficients modulo q.
     The operations defined are: polynomial addition, polynomial subtraction, and polynomial multiplication.
       Polynomial addition and polynomial subtraction: coefficient-wise, modular addition and subtraction operations, respectively.
-      Polynomial multiplication: generates a 2n-2 degree polynomial which is converted back to a polynomial of degree n-1 with the reduction function of f(x)=xn+1.
+      Polynomial multiplication: generates a 2n-2 degree polynomial which is converted back to a polynomial of degree n-1 with the reduction function of f(x)=x^n+1.
